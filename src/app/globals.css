@@ -1,0 +1,38 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --font-berkshire: 'Berkshire Swash', cursive;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-berkshire);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url('/art.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: var(--font-berkshire), cursive, Arial, sans-serif;
+  color: var(--foreground);
+}
+
+/* Optional: add text shadow class to help text stand out */
+.text-shadow {
+  text-shadow:
+    1px 1px 2px rgba(0,0,0,0.7),
+    0 0 5px rgba(0,0,0,0.4);
+}
