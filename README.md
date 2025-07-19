@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# QuietVision
 
-## Getting Started
+**A clean, calm, and professional face tracking web app — perfect for introverted tech enthusiasts.**
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+QuietVision is a lightweight, user-friendly web application built using Next.js and Tailwind CSS. It offers real-time face tracking through your webcam, coupled with video recording capabilities that include audio capture. Designed with a soothing UI and responsive layout, QuietVision ensures an accessible and enjoyable experience across devices.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Features
 
-## Learn More
+- **Real-time Face Tracking**  
+  Utilizes the `face-api.js` library to overlay face tracking data on your live webcam feed.
 
-To learn more about Next.js, take a look at the following resources:
+- **Video Recording with Audio**  
+  Record video clips with synchronized audio directly from your webcam and microphone.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Recording Preview & Download**  
+  Preview your captured videos instantly and save them locally using your browser's native controls.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Responsive and Modern UI**  
+  Styled with Tailwind CSS and enhanced by the elegant *Berkshire Swash* font, ensuring both aesthetics and usability.
 
-## Deploy on Vercel
+- **Background Customization**  
+  A relaxing background image (or GIF) enhances the user interface, complementing the overall experience.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Tech Stack
+
+- [Next.js](https://nextjs.org/) (React framework for server-side rendering and static site generation)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [face-api.js](https://github.com/justadudewhohacks/face-api.js) (for face tracking)
+- Google Fonts - [Berkshire Swash](https://fonts.google.com/specimen/Berkshire+Swash)
+
+---
+
+## Installation
+
+### Prerequisites
+
+- Node.js (v16 or above recommended)
+- npm (comes with Node.js)
+
+### Steps
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/palesamalatshi/face-tracker-app.git
+   cd face-tracker-app
